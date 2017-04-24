@@ -11,7 +11,8 @@ import { FieldConfig } from '../../models/field-config.interface';
 const components: {[type: string]: Type<Field>} = {
   button: FormButtonComponent,
   input: FormInputComponent,
-  select: FormSelectComponent
+  select: FormSelectComponent,
+  password: FormInputComponent,
 };
 
 @Directive({

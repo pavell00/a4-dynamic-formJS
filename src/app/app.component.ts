@@ -3,6 +3,7 @@ import { Validators } from '@angular/forms';
 
 import { FieldConfig } from './dynamic-form/models/field-config.interface';
 import { DynamicFormComponent } from './dynamic-form/containers/dynamic-form/dynamic-form.component';
+import { InputTypes } from './dynamic-form/models/input.type.enum';
 
 @Component({
   moduleId: module.id,
@@ -42,6 +43,12 @@ export class AppComponent implements AfterViewInit {
       label: 'Submit',
       name: 'submit',
       type: 'button'
+    },
+    {
+      type: 'password',
+      name: 'pass',
+      value: 'Enter your password',
+      validation: [Validators.required, Validators.minLength(5)]
     }
   ];
 

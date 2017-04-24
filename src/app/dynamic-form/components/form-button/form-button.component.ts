@@ -7,7 +7,7 @@ import { FieldConfig } from '../../models/field-config.interface';
 @Component({
   moduleId: module.id,
   selector: 'form-button',
-  styleUrls: ['form-button.component.scss'],
+  styleUrls: ['form-button.component.css'],
   template: `
     <div 
       class="dynamic-field form-button"

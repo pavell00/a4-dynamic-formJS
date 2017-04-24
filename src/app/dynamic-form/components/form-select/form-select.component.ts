@@ -7,7 +7,7 @@ import { FieldConfig } from '../../models/field-config.interface';
 @Component({
   moduleId: module.id,
   selector: 'form-select',
-  styleUrls: ['form-select.component.scss'],
+  styleUrls: ['form-select.component.css'],
   template: `
     <div 
       class="dynamic-field form-select"
